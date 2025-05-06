@@ -323,5 +323,12 @@
   <footer class="w-full bg-slate-100 border-t border-slate-200 text-slate-500 text-center py-8 md:py-10 px-4 font-medium text-base md:text-sm tracking-wide">
     <span class="block">© 2025 IDEACODE. All rights reserved.</span>
   </footer>
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
 </body>
 </html>
